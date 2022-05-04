@@ -1,0 +1,102 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "CommunityToken",
+  "sourceName": "contracts/CommunityToken.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "event_id_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "host_",
+          "type": "address"
+        },
+        {
+          "internalType": "bool",
+          "name": "token_payable_",
+          "type": "bool"
+        }
+      ],
+      "name": "add_event",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "new_user_",
+          "type": "address"
+        }
+      ],
+      "name": "add_user",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "event_id",
+          "type": "uint256"
+        }
+      ],
+      "name": "event_payment",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "event_id_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "attendee",
+          "type": "address"
+        }
+      ],
+      "name": "verify_attendence",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
